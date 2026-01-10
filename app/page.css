@@ -5,11 +5,11 @@
 }
 
 .content {
-    @apply flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 pt-20 bg-white dark:bg-black sm:items-start;
+    @apply flex min-h-screen w-full flex-col items-center justify-between px-16 bg-white sm:items-start;
 }
 
 .navbar {
-    @apply fixed top-0 left-0 flex w-full items-center justify-center z-50 mt-10;
+    @apply fixed top-0 left-0 flex w-full items-center justify-center z-50 mt-4;
 }
 
 .section1 {
