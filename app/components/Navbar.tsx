@@ -1,6 +1,6 @@
 "use client";
 import './Navbar.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 export interface linksProps {
     links: string[];
@@ -37,7 +37,9 @@ export default function Navbar({links} : linksProps) {
     const handleMousePos = (e: MouseEvent) => {
         if ((e.clientY < (innerHeight / 4)) && !lockNavbar) {
             setFadeOut(false);
-        } else if (e.clientY > (innerHeight / 2) && lockNavbar) {
+        } else if (e.clientY > (innerHeight / 3) && lockNavbar) {
+            setFadeOut(true);
+        } else if (e.clientY > (innerHeight / 2)) {
             setFadeOut(true);
         }
     };
