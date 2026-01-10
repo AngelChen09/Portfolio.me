@@ -1,5 +1,6 @@
 import './page.css';
 import Navbar from './components/Navbar';
+import ProjectPolaroid from './components/ProjectPolaroid';
 import Image from "next/image";
 
 const navLinks = [
@@ -26,7 +27,12 @@ export default function Home() {
         </section>
 
         <section id={navLinks[2].toLowerCase()} className="section3">
-          <h3>{navLinks[2]}</h3>
+          {/* <div className="section3-right">
+            <h1>{navLinks[2]}</h1>
+          </div> */}
+          <div className="section3-left">
+            <ProjectPolaroid />
+          </div>
         </section>
 
         <section id={navLinks[3].toLowerCase()} className="section4">
