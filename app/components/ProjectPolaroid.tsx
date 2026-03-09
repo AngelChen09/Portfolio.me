@@ -19,11 +19,22 @@ const tempProjectData = {
         }
     ],
     photo: '/projects/primepong.jpg',
+    horizontal: false,
+}
+
+export interface projectPolaroidProps {
+
 }
 
 export default function ProjectPolaroid() {
+
+    const polaroidStats = {
+
+    }
+
+
     return (
-        <div className="card">
+        <div className={`card ${tempProjectData.horizontal? "w-72":"w-56"}`}>
             <div className="picture">
                 <Image
                     src={tempProjectData.photo}
@@ -38,9 +49,9 @@ export default function ProjectPolaroid() {
                 <div className="details-title">
                     {tempProjectData.name}
                 </div>
-                <div className="details-description">
+                {/* <div className="details-description">
                     {tempProjectData.description}
-                </div>
+                </div> */}
             </div>
             <div className="stack">
                 {tempProjectData.techs.map((tech) => (
