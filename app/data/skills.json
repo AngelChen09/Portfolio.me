@@ -1,9 +1,0 @@
-{
-    "skills": [
-        {
-            "name": "Python",
-            "type": "Universal",
-            "logo": "https://<bucket-name>.s3.<region>.amazonaws.com/<file-path>"
-        }
-    ]
-}

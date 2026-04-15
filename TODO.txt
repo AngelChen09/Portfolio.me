@@ -1,0 +1,2 @@
+- incorporate mongo to server with Express
+- customize frontend
