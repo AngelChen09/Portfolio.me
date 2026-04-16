@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node connect.js",
+    "start": "node connect.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "7.1"
+  }
+}
