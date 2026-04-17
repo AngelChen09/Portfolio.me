@@ -10,7 +10,8 @@ This repository uses npm workspaces and is split into two apps:
 Install all dependencies from the repo root:
 
 ```bash
-npm install
+npm install --prefix frontend
+npm install --prefix backend
 ```
 
 Run the frontend from the repo root:

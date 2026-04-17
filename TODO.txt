@@ -1,2 +1,6 @@
 - incorporate mongo to server with Express
 - customize frontend
+
+Future Features:
+- Food blog
+- Gallery of food / pretty photos
